@@ -33,7 +33,7 @@ public class adapter extends RecyclerView.Adapter<viewholderr> {
 
     public Updates update;
 
-// comment by nitish
+
 //***********************************  ARRAYLISTS VARIABLE + [ Getter & Setter ] ***********************************//
     private ArrayList<ecomproducts> ecomp;
 
@@ -41,7 +41,7 @@ public class adapter extends RecyclerView.Adapter<viewholderr> {
     public ArrayList<ecomproducts> getEcomp() {
         return ecomp;
     }
-    
+
 
     public void setEcomp(ArrayList<ecomproducts> ecomp) {
         this.ecomp = ecomp;
